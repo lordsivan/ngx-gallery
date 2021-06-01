@@ -19,10 +19,10 @@
       "dom"
     ],
     "paths": {
-      "@kolkov/ngx-gallery": [
+      "@sivathanu/ngx-gallery": [
         "dist/gallery"
       ],
-      "@kolkov/ngx-gallery/*": [
+      "@sivathanu/ngx-gallery/*": [
         "dist/gallery/*"
       ]
     }
