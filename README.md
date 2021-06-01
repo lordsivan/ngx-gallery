@@ -24,7 +24,7 @@ Working code for this demo at stackblitz [example](https://stackblitz.com/edit/k
 Install via [npm][npm] package manager 
 
 ```bash
-npm install @kolkov/ngx-gallery --save
+npm install @lordsivan/ngx-gallery --save
 ```
 ### Versions
 
@@ -36,7 +36,7 @@ Import `ngx-gallery` module
 
 ```js
 import { HttpClientModule} from '@angular/common/http';
-import { NgxGalleryModule } from '@kolkov/ngx-gallery';
+import { NgxGalleryModule } from '@lordsivan/ngx-gallery';
 
 @NgModule({
   imports: [ HttpClientModule, NgxGalleryModule ]
@@ -53,9 +53,9 @@ where
 
 ```
 import {Component, OnInit} from '@angular/core';
-import {NgxGalleryOptions} from '@kolkov/ngx-gallery';
-import {NgxGalleryImage} from '@kolkov/ngx-gallery';
-import {NgxGalleryAnimation} from '@kolkov/ngx-gallery';
+import {NgxGalleryOptions} from '@lordsivan/ngx-gallery';
+import {NgxGalleryImage} from '@lordsivan/ngx-gallery';
+import {NgxGalleryAnimation} from '@lordsivan/ngx-gallery';
 
 @Component({
   selector: 'app-root',
